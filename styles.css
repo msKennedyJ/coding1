@@ -11,19 +11,28 @@ h1 {
   margin-bottom: 20px;
   text-shadow: 2px 2px Red;
 }
+img {
+  border-radius: 8px;
+  padding: 60px;
+}
 
 a {
-  color: Gold;
+  display: inline-block;
+  padding: 10px 18px;
+  background: Gold;
+  color: white;
   text-decoration: none;
-  border-bottom: 2px solid transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
+  border-radius: 8px;
+  box-shadow: 0 3px 0 LightGreen;
+  transition: all 0.1s ease;
 }
 
 a:hover {
-  color: LightGreen;
-  border-bottom-color: DarkOliveGreen;
+  background: Yellow;
 }
 
-a:visited {
-  color: Yellow;
+a:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 0 LightGreen;
 }
+
