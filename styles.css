@@ -11,3 +11,26 @@ h1 {
   margin-bottom: 20px;
   text-shadow: 2px 2px Red;
 }
+
+img{
+  border-radius:8px;
+  padding:20px;
+   }
+
+a:link {
+  background-color:yellow;
+  text-decoration:none;
+}
+
+a:visited {
+  background-color:cyan;
+  text-decoration:none;
+}
+a:hover {
+  background-color:Lightgreen;
+  text-decoration:none;
+}
+a:active {
+  background-color:hotpink;
+  text-decoration:none;
+}
