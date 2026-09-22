@@ -11,33 +11,3 @@ h1 {
   margin-bottom: 20px;
   text-shadow: 2px 2px Red;
 }
-img {
-  border-radius: 8px;
-  padding: 20px;
-  transition: transform 0.3s ease;
-}
-
-img:hover {
-  transform: scale(1.05);
-}
-
-a {
-  display: inline-block;
-  padding: 5px 9px;
-  background: Gold;
-  color: DarkGreen;
-  text-decoration: none;
-  border-radius: 8px;
-  box-shadow: 0 3px 0 LightGreen;
-  transition: all 0.1s ease;
-}
-
-a:hover {
-  background: Yellow;
-}
-
-a:active {
-  transform: translateY(3px);
-  box-shadow: 0 0 0 LightGreen;
-}
-
