@@ -1,36 +1,57 @@
 body {
-  background-color: ForestGreen;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
+    background-color: ForestGreen;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
 }
 
 h1 {
-  font-size: 80px;
-  color: Gold;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px Red;
+    font-size: 80px;
+    color: Gold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px Red;
 }
 
-img{
-  border-radius:8px;
-  
-   }
-
-a:link {
-  background-color:yellow;
-  text-decoration:none;
+img {
+    border-radius: 8px;
 }
 
+a:link,
 a:visited {
-  background-color:cyan;
-  text-decoration:none;
+    display: inline-block;
+    
+    background-color: Gold;
+    color: DarkGreen;
+    
+    padding: 10px 18px;
+    margin: 5px;
+    
+    text-decoration: none;
+    font-weight: bold;
+    
+    border: 2px solid DarkGreen;
+    border-radius: 8px;
+    
+    box-shadow: 3px 3px 0px DarkGreen;
+    
+    transition: all 0.2s ease;
 }
+
+
 a:hover {
-  background-color:Lightgreen;
-  text-decoration:none;
+    background-color: LightGreen;
+    color: DarkGreen;
+    
+    transform: translateY(-2px);
+    
+    box-shadow: 4px 4px 0px DarkGreen;
 }
+
 a:active {
-  background-color:hotpink;
-  text-decoration:none;
+    background-color: HotPink;
+    color: White;
+    
+    transform: translateY(2px);
+    
+    box-shadow: 1px 1px 0px DarkGreen;
 }
