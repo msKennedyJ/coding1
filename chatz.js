@@ -697,15 +697,15 @@ function findResponse(userInput) {
 
     const defaultResponses = [
         "I'm not sure how to respond to that. Would you like some cheese? 🧀",
-        "Hmm... that's a little outside my cheese-tpertise.",
-        "I'm drawing a blank... perhaps a cheese break is in order.",
-        "I don't have an answer, but I do have cheese!",
+        "Hmm... that's a little outside my expert-cheese.",
+        "I'm drawing a blank... would you like some cheese?",
+        "I don't have an answer, can you explain?",
         "My brain has sprung a leak... like Swiss cheese.",
-        "I'm not sure, but I'm willing to queso further!",
+        "I'm not sure, can you explain?",
         "That's a real puzzler. Time to bring out the big cheese.",
-        "I think we need to have a serious de-brie-f about this.",
-        "I'm stumped. And slightly grated.",
-        "Could you rephrase that? I'm feeling a little crumbly."
+        "I think we need to rethink that.",
+        "I'm stumped. Could you put that a different way?",
+        "Could you rephrase that?"
     ];
 
     return getRandomResponse(defaultResponses);
