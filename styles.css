@@ -11,6 +11,12 @@ h1 {
     margin-bottom: 20px;
     text-shadow: 2px 2px Red;
 }
+h2 {
+    font-size: 40px;
+    color: Gold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px Red;
+}
 
 img {
     border-radius: 8px;
@@ -60,7 +66,7 @@ a:active {
 #chat {
     width: 80%;
     max-width: 700px;
-    height: 200px;
+    height: 150px;
 
     margin: 20px auto;
 
