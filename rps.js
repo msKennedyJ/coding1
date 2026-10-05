@@ -1,6 +1,6 @@
-const computerChoiceDisplay = document.getElementByID('computer-choice')
+const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
-const resultDisplay = document.getElementByID('result')
+const resultDisplay = document.getElementById('result')
 
 const possibleChoices = document.querySelectorAll('button')
 let userChoice
