@@ -1,5 +1,5 @@
 const computerChoiceDisplay = document.getElementByID('computer-choice')
-const userChoiceDisplay = document.getElementByID('user-choice')
+const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementByID('result')
 
 const possibleChoices = document.querySelectorAll('button')
